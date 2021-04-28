@@ -5,31 +5,32 @@
 
 using namespace std;
 
-int main() {
-    int a;
-    const int size = 100;
+int main()
+{
+    double a;
+    double x;
+    double c = 0;
+    const int size = 10;
     int matrix[size];
-    srand(time(NULL));
-    // заполнение матрицы ГСЧ
-    for (int i = 0; i < size; i++) {
-        matrix[i] = 1 + rand() % 4000;
-        cout << matrix[i] << " ";
-    }
-    system("pause");
-    // вот тут вставляете сортировку Шелла
-    // вывод матрицы
-    for (int i = 0; i < size; i++) {
-       a =  log2(matrix[i]);
+
+    for (int i = 0; i < size; i++)
+        cin >> matrix[i];
+    for (int i = 0; i < size; i++) 
+    {
        
-       if (a % 2)
+       a =  log2(matrix[i]);
+       double f = modf(a, &x);
+       if (f == c)
        {
+           cout << "Normal number:" << endl;
            cout << matrix[i] << endl;
        }
        else
        {
-           system("pause");
+           cout << "" ;
        }
     }
+    
     system("pause");
     return 0;
 }
