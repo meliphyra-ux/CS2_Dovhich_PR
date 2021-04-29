@@ -24,6 +24,7 @@
     <ProjectGuid>{7e67444a-60c4-4802-9ce1-ccc898e43957}</ProjectGuid>
     <RootNamespace>CS2DovhichPR</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>1.Практичне заняття</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

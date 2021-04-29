@@ -24,6 +24,7 @@
     <ProjectGuid>{a080093e-f52c-49c3-85cc-c9a11551dd85}</ProjectGuid>
     <RootNamespace>Завдання23</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>1. Практичне заняття 2.3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
