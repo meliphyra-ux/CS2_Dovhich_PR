@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CS2_Dovhich_PR", "CS2_Dovhich_PR\CS2_Dovhich_PR.vcxproj", "{7E67444A-60C4-4802-9CE1-CCC898E43957}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Завдання 2.3", "Завдання 2.3\Завдання 2.3.vcxproj", "{A080093E-F52C-49C3-85CC-C9A11551DD85}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Індивідуальна робота №1", "Індивідуальна робота №1\Індивідуальна робота №1.vcxproj", "{4F2F9204-33F0-49A3-8F93-BD61C42F5F51}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.Практичне заняття", "2.Практичне заняття\2.Практичне заняття.vcxproj", "{C84AB6B0-FC81-4C32-B5E6-A9A32FDBD8CE}"
@@ -22,8 +18,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.Практичне заняття 2.3", "3.Практичне заняття 2.3\3.Практичне заняття 2.3.vcxproj", "{E5F539B9-B292-432F-9A03-4382C3C422E1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.Практичне заняття 2.4", "3.Практичне заняття 2.4\3.Практичне заняття 2.4.vcxproj", "{6E6BE410-FB3C-41A7-904F-7C1ACB498FC8}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. Практичнне заняття", "5. Практичнне заняття\5. Практичнне заняття.vcxproj", "{C573E22B-9258-488E-ACBD-2F1F2821E2AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Практичне заняття 1", "Практичне заняття 1", "{27DC188D-94D0-4DB5-9D95-8B74FF75BB08}"
 EndProject
@@ -43,22 +37,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Debug|x64.ActiveCfg = Debug|x64
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Debug|x64.Build.0 = Debug|x64
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Debug|x86.ActiveCfg = Debug|Win32
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Debug|x86.Build.0 = Debug|Win32
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Release|x64.ActiveCfg = Release|x64
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Release|x64.Build.0 = Release|x64
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Release|x86.ActiveCfg = Release|Win32
-		{7E67444A-60C4-4802-9CE1-CCC898E43957}.Release|x86.Build.0 = Release|Win32
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Debug|x64.ActiveCfg = Debug|x64
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Debug|x64.Build.0 = Debug|x64
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Debug|x86.ActiveCfg = Debug|Win32
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Debug|x86.Build.0 = Debug|Win32
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Release|x64.ActiveCfg = Release|x64
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Release|x64.Build.0 = Release|x64
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Release|x86.ActiveCfg = Release|Win32
-		{A080093E-F52C-49C3-85CC-C9A11551DD85}.Release|x86.Build.0 = Release|Win32
 		{4F2F9204-33F0-49A3-8F93-BD61C42F5F51}.Debug|x64.ActiveCfg = Debug|x64
 		{4F2F9204-33F0-49A3-8F93-BD61C42F5F51}.Debug|x64.Build.0 = Debug|x64
 		{4F2F9204-33F0-49A3-8F93-BD61C42F5F51}.Debug|x86.ActiveCfg = Debug|Win32
@@ -123,21 +101,11 @@ Global
 		{6E6BE410-FB3C-41A7-904F-7C1ACB498FC8}.Release|x64.Build.0 = Release|x64
 		{6E6BE410-FB3C-41A7-904F-7C1ACB498FC8}.Release|x86.ActiveCfg = Release|Win32
 		{6E6BE410-FB3C-41A7-904F-7C1ACB498FC8}.Release|x86.Build.0 = Release|Win32
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Debug|x64.ActiveCfg = Debug|x64
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Debug|x64.Build.0 = Debug|x64
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Debug|x86.ActiveCfg = Debug|Win32
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Debug|x86.Build.0 = Debug|Win32
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Release|x64.ActiveCfg = Release|x64
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Release|x64.Build.0 = Release|x64
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Release|x86.ActiveCfg = Release|Win32
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7E67444A-60C4-4802-9CE1-CCC898E43957} = {27DC188D-94D0-4DB5-9D95-8B74FF75BB08}
-		{A080093E-F52C-49C3-85CC-C9A11551DD85} = {27DC188D-94D0-4DB5-9D95-8B74FF75BB08}
 		{4F2F9204-33F0-49A3-8F93-BD61C42F5F51} = {B665740B-129A-43F7-B891-0B38D39C53CB}
 		{C84AB6B0-FC81-4C32-B5E6-A9A32FDBD8CE} = {1BBA947C-6CA0-4186-8E79-F22737EF749A}
 		{A2806FF7-A3F1-4295-80E4-774ED049EDB4} = {1BBA947C-6CA0-4186-8E79-F22737EF749A}
@@ -146,7 +114,6 @@ Global
 		{73A5DB3F-0CC6-4885-9A11-F8C22E5FD0B0} = {11BD05BF-90CF-4F79-8C3C-FD97B8D10312}
 		{E5F539B9-B292-432F-9A03-4382C3C422E1} = {11BD05BF-90CF-4F79-8C3C-FD97B8D10312}
 		{6E6BE410-FB3C-41A7-904F-7C1ACB498FC8} = {11BD05BF-90CF-4F79-8C3C-FD97B8D10312}
-		{C573E22B-9258-488E-ACBD-2F1F2821E2AB} = {0E228403-6859-4002-B3E3-4D9C71B9D844}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AF461CE-DD3A-45D7-A21E-CDEA4E0DDE96}
