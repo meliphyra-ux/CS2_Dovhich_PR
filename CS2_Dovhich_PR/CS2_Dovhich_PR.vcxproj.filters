@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CS2_Dovhich_PR.cpp">
+    <ClCompile Include="1.Практичне заняття.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
