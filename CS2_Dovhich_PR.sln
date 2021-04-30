@@ -32,6 +32,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Індивідуальні", "Індивідуальні", "{B665740B-129A-43F7-B891-0B38D39C53CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Практичне заняття 5", "Практичне заняття 5", "{0E228403-6859-4002-B3E3-4D9C71B9D844}"
+	ProjectSection(SolutionItems) = preProject
+		5. Практичне заняття\5. Практичнне заняття.cpp = 5. Практичне заняття\5. Практичнне заняття.cpp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
