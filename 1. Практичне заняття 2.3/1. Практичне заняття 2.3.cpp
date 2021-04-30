@@ -21,3 +21,4 @@ int main()
         cout << "You're wrong. Correct anwser:\n" << a << endl;
     }
     return 0;
+}

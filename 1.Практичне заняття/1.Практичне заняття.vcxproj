@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a080093e-f52c-49c3-85cc-c9a11551dd85}</ProjectGuid>
-    <RootNamespace>Завдання23</RootNamespace>
+    <ProjectGuid>{3368d393-b77f-4436-be48-b66c2bb77ddc}</ProjectGuid>
+    <RootNamespace>My1Практичнезаняття</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1. Практичне заняття 2.3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1. Практичне заняття 2.3.cpp" />
+    <ClCompile Include="1.Практичне заняття.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
