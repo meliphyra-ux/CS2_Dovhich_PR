@@ -29,7 +29,7 @@ int main()
 		if (min > n[r]) min = n[r];
 	}
 	int o = max + min;
-	cout << min << " " << max << endl;
+	cout << max << " " << min << endl;
 	cout <<"Sum of max (2k-2) + min(2k-1):"  << o << endl;
 	return 0;
 }
