@@ -7,11 +7,7 @@ int main()
 	double integrer,fr,num;
 	cin >> num;
 	fr = modf(num, &integrer);
-	if (fr == 0)
-	{
-		exit(0);
-	}
-	if (fr < 1)
+	if (fr < 1,fr > 0.1)
 	{
 		num = (num * 10);
 		cout << num << "/10";
@@ -21,6 +17,11 @@ int main()
 		num = (num * 100);
 		cout << num << "/100";
 	}
-
+	else
+	{
+		exit(0);
+	}
+	
+	return 0;
 
 }
