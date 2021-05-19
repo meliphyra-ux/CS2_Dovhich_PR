@@ -15,7 +15,6 @@ int main()
     f.open("D:\\2.txt", ios::in);
     while (!f.eof())
     {
-
         f >> x;
         a.push_back(x);
     }

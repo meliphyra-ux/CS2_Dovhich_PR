@@ -8,7 +8,6 @@ int main() {
     string inp;
     cout << "Enter number:";
     cin >> inp;
-;    cout << "Input String: " << inp << endl;
 
     try {
         int res = stoi(inp);
