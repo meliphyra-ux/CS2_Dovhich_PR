@@ -11,7 +11,7 @@ int main()
 		cin >> word[i];
 		p++;
 		if (word[i] == '0')
-			i = 9;
+			i = 79;
     }
 	for (int i = 0; i < p; i++)
 		cout << word[i] << endl;

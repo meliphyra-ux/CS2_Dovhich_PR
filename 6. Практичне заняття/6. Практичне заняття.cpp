@@ -32,7 +32,7 @@ int main()
 	for (int i = 0; i < n; i++)
 	{
 		fin >> List[i].secname >> List[i].name >> List[i].math >> List[i].phys >> List[i].inform;
-		cout << List[i].secname << " " << List[i].name << endl;
+		cout << List[i].secname << " " << List[i].name << " " << List[i].math <<" " << List[i].phys <<" "<< List[i].inform<< endl;
 		List[i].avarage = (float(List[i].math) + float(List[i].phys) + float(List[i].inform)) / 3;
 		if (rem < List[i].avarage)
 			rem = List[i].avarage;
@@ -42,6 +42,6 @@ int main()
 		if (List[i].avarage == rem)
 			cout << List[i].secname << " " << List[i].name << endl;
 	fin.close();
-
+		
 	return 0;
 }

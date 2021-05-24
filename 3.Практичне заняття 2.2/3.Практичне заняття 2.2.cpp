@@ -10,7 +10,6 @@ int main()
 	for (int i = 0; i < m; i++)
 	{
 		n[i] = rand() % (100-1) + 1;
-		cout << "Massiv: " << n[i] << endl;
 	}
 	
 	int j=0;
@@ -29,6 +28,6 @@ int main()
 	}
 	for (int i = 0; i < j; i++)
 	{
-		cout << "Massiv1:\n" << n[i] << endl;
+		cout << "Massiv:\n" << n[i] << endl;
 	}
 }
